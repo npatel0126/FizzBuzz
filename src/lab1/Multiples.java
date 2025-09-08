@@ -17,4 +17,16 @@ public class Multiples {
         }
         return nums;
     }
+
+    public static int multiples() {
+        int nums = 0;
+        for (int i = 1; i < 100; i++){
+            boolean divA = i % 3 == 0;
+            boolean divB = i % 5 == 0;
+            if (divA || divB) {
+                nums++;
+            }
+        }
+        return nums;
+    }
 }
