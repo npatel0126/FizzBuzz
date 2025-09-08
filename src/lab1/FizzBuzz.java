@@ -12,10 +12,10 @@ class FizzBuzz {
         //doFizzBuzz();
     }
 
-    public static void doFizzBuzz(int n) {
+    public static void doFizzBuzz(int i) {
             // Find out which numbers divide i.
-            boolean divisibleBy3 = n % 3 == 0;
-            boolean divisibleBy5 = n % 5 == 0;
+            boolean divisibleBy3 = i % 3 == 0;
+            boolean divisibleBy5 = i % 5 == 0;
 
             // Print our appropriate result.
             if (divisibleBy3 && divisibleBy5) {
@@ -32,7 +32,7 @@ class FizzBuzz {
 
             } else {
 
-                System.out.println(n);
+                System.out.println(i);
             }
     }
 }
