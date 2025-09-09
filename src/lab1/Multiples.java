@@ -20,7 +20,7 @@ public class Multiples {
 
     public static int multiples() {
         int nums = 0;
-        for (int i = 1; i < 100; i++){
+        for (int i = 1; i < 1000; i++){
             boolean divA = i % 3 == 0;
             boolean divB = i % 5 == 0;
             if (divA || divB) {
